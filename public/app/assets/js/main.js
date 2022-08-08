@@ -139,8 +139,7 @@ const slickSlider = () => {
     $(`.testimonial-slider .slide-nav .slide-nav__wrapper .slide-nav__item`).on(
       "click",
       function () {
-        let a = $(this).attr("key");
-        console.log(a);
+        let a = $(this).attr("kdata");
         $tesFor.slick("slickGoTo", a);
       }
     );
@@ -483,22 +482,23 @@ const countDownDale = () => {
 
 const accordion = () => {
   $(".accordion > .accordion-group > .accordion-content:not(.active)").hide();
-  $(".accordion > .accordion-group > .accordion-header").on("click", function (
-    e
-  ) {
-    e.preventDefault();
-    $(this).parent().siblings().removeClass("active");
-    $(this).parent().addClass("active");
-    if (!$(this).next().hasClass("active")) {
-      $(".accordion > .accordion-group > .accordion-content")
-        .removeClass("active")
-        .slideUp();
-      $(this).addClass("active");
-      $(this).next().addClass("active").slideDown();
-    }
+  $(".accordion > .accordion-group > .accordion-header").on(
+    "click",
+    function (e) {
+      e.preventDefault();
+      $(this).parent().siblings().removeClass("active");
+      $(this).parent().addClass("active");
+      if (!$(this).next().hasClass("active")) {
+        $(".accordion > .accordion-group > .accordion-content")
+          .removeClass("active")
+          .slideUp();
+        $(this).addClass("active");
+        $(this).next().addClass("active").slideDown();
+      }
 
-    return false;
-  });
+      return false;
+    }
+  );
 };
 
 const tab = () => {
@@ -565,17 +565,17 @@ const openSearchBox = () => {
 };
 
 $(document).ready(function () {
-  runHeroSliderAnimation();
-  slickSlider();
-  validateForm();
+  // runHeroSliderAnimation();
+  // slickSlider();
+  // validateForm();
   // parallaxHover();
-  onHoverChangeVideoSrc();
-  onOpenQuickViewModal();
-  onOpenDrawer();
-  mobileSidebarMenuHandle();
-  countDownDale();
-  accordion();
-  toggleProductView();
-  tab();
-  openSearchBox();
+  // onHoverChangeVideoSrc();
+  // onOpenQuickViewModal();
+  // onOpenDrawer();
+  // mobileSidebarMenuHandle();
+  // countDownDale();
+  // accordion();
+  // toggleProductView();
+  // tab();
+  // openSearchBox();
 });
