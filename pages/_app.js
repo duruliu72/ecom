@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
           onOpenDrawer();
           mobileSidebarMenuHandle();
           onOpenQuickViewModal();
+          toggleProductView();
         }}
       />
     </>

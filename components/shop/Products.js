@@ -52,31 +52,31 @@ function Products() {
                     <h5>Brand</h5>
                     <ul>
                       <li>
-                        <label for="brand-0">
+                        <label htmlFor="brand-0">
                           <input type="checkbox" name="Gucci" id="brand-0" />
                           Gucci
                         </label>
                       </li>
                       <li>
-                        <label for="brand-1">
+                        <label htmlFor="brand-1">
                           <input type="checkbox" name="Dolce" id="brand-1" />
                           Dolce
                         </label>
                       </li>
                       <li>
-                        <label for="brand-2">
+                        <label htmlFor="brand-2">
                           <input type="checkbox" name="H&amp;M" id="brand-2" />
                           H&amp;M
                         </label>
                       </li>
                       <li>
-                        <label for="brand-3">
+                        <label htmlFor="brand-3">
                           <input type="checkbox" name="Kenzo" id="brand-3" />
                           Kenzo
                         </label>
                       </li>
                       <li>
-                        <label for="brand-4">
+                        <label htmlFor="brand-4">
                           <input type="checkbox" name="Prada" id="brand-4" />
                           Prada
                         </label>
@@ -87,7 +87,7 @@ function Products() {
                     <h5>Price</h5>
                     <ul>
                       <li>
-                        <label for="price-0">
+                        <label htmlFor="price-0">
                           <input
                             type="checkbox"
                             name="$0.00 - $25.00"
@@ -97,7 +97,7 @@ function Products() {
                         </label>
                       </li>
                       <li>
-                        <label for="price-1">
+                        <label htmlFor="price-1">
                           <input
                             type="checkbox"
                             name="$25.00 - $50.00"
@@ -107,7 +107,7 @@ function Products() {
                         </label>
                       </li>
                       <li>
-                        <label for="price-2">
+                        <label htmlFor="price-2">
                           <input
                             type="checkbox"
                             name="$50.00 - $75.00"
@@ -117,7 +117,7 @@ function Products() {
                         </label>
                       </li>
                       <li>
-                        <label for="price-3">
+                        <label htmlFor="price-3">
                           <input
                             type="checkbox"
                             name="$75.00 - $100.00"

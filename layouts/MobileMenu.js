@@ -1,4 +1,4 @@
-const Section2 = () => {
+const MobileMenu = () => {
   return (
     <div
       className="drawer drawer-right slide"
@@ -210,4 +210,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default MobileMenu;

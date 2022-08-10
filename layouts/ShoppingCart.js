@@ -1,4 +1,4 @@
-const Section1 = () => {
+const ShoppingCart = () => {
   return (
     <div
       className="drawer drawer-right slide"
@@ -71,4 +71,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default ShoppingCart;
