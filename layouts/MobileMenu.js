@@ -132,7 +132,7 @@ const MobileMenu = () => {
                         <ul className="dropdown-menu__col -banner">
                           <a href="shop-fullwidth-4col.html">
                             <img
-                              src="assets/images/header/dropdown-menu-banner.png"
+                              src="/app/assets/images/header/dropdown-menu-banner.png"
                               alt="New product banner.html"
                             />
                           </a>

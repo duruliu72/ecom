@@ -27,7 +27,7 @@ const TeamOne = () => {
                 <p>
                   Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis.
                 </p>
-                <socialicons></socialicons>
+                {/* <socialicons></socialicons> */}
               </div>
             </div>
           </div>
